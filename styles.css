@@ -1,0 +1,98 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    background-color: rgb(184, 184, 184);
+    padding: 20px 75px;
+}
+    .header h2 {
+        color: rgb(245, 253, 176)
+    }
+    .header a,
+    .header ul {
+        list-style: none;
+        text-decoration: none;
+        color: inherit
+    }
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0px;
+}
+    .top-header h2 {
+        font-style: italic;
+    }
+
+    ul {
+        display: flex;
+        gap: 20px;
+    }
+    .logo {
+    
+    }
+
+.header-content {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+    .header-content p {
+        width: 300px;
+    }
+    .header-content img {
+        margin-left: auto;
+        border-radius: 25px;
+    }
+    .header-content h1 {
+        font-family: ;
+    }
+
+.content-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(82, 114, 82);
+    padding: 20px 0px;
+    color: rgb(252, 252, 225);
+}
+    .flower-information {
+        display: flex;
+        gap: 75px;
+        padding-bottom: 20px;
+    }
+    .bouquet-1, .bouquet-2, .bouquet-3, .bouquet-4 {
+        text-align: center;
+    }
+    .flower-information img {
+        border-radius: 25px;
+    }
+
+.testimonial {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 100px;
+    background-color: rgb(49, 80, 49);
+    color: white;
+    
+
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(34, 41, 48);
+    color: white;
+    padding: 40px;
+}
